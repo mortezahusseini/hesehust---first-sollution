@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-weight: normal;
+  font-style: normal; }
+body, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: Roboto; }
+
+.gtd-container {
+  max-width: 980px;
+  margin: 0 auto; }
+.gtd-header {
+  width: 100%;
+  height: 3rem;
+  background-color: #4F4D53; }
+  .gtd-header h4 {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center; }
+.gtd-main_banner {
+  width: 100%;
+  height: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../media/img_hero.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+.gtd-main_banner-title {
+  font-size: 4rem;
+  color: #4F4D53; }
+.gtd-main_desc {
+  padding: 3rem 0; }
+  .gtd-main_desc-title {
+    font-size: 3rem;
+    color: #E8BE02; }
+  .gtd-main_desc-content {
+    color: #4F4D53;
+    line-height: 1.5rem; }
+.gtd-footer {
+  padding: 2rem 0;
+  background-color: #4F4D53; }
+  .gtd-footer_list-title {
+    color: #E8BE02;
+    font-size: 1.4rem;
+    padding: 1rem 0; }
+  .gtd-footer_list-content {
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-top: 0.25rem; }
+  .gtd-footer_group {
+    display: flex;
+    justify-content: space-between; }
